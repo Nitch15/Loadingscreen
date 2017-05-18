@@ -7,7 +7,7 @@
     version 2.05
 */
 
-*URL for the server logo
+/*URL for the server logo
 Leave it blank to use text instead*/
 var l_serverImage = "images/Battlegrounds.png";
 
@@ -46,7 +46,7 @@ You can add custom backgrounds
 Just make sure it is at webm VP8 format */
 var l_background = "backgrounds/videos/glimmering.webm";
 
-*(Image-background only)
+/*(Image-background only)
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
