@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/Battlegrounds.png";
+var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Star Wars BattleGrounds";
+var l_serverName = "sleekLoad 2";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,9 +50,9 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/starwars.gif",
-	"backgrounds/images/luke.gif",
-	"backgrounds/images/vader.gif"
+	"backgrounds/images/touhou01.jpg",
+	"backgrounds/images/touhou02.jpg",
+	"backgrounds/images/touhou03.jpg"
 ];
 
 /*Random background images order?*/
@@ -80,13 +80,15 @@ var l_bgDarkening = 50;
 var l_music = true;
 
 /*Display actual song's name?*/
-var l_musicDisplay = false;
+var l_musicDisplay = true;
 
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "FSVHx23ByhM", name: "Ezio's Family"},
-	{youtube: "fs1qREif6oM", name: "Golden Age"}
+	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
+	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
+	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
+	{youtube: "-7VeTkLKdDw", name: "Departure"}
 ];
 
 /*Random music order?*/
@@ -101,10 +103,9 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Jedi, are users of the light. Strong and free.",
-"Sith are seekers of power, Fierce and Cunning.",
-"Mandalorians are smart, and warriors. They serve by creed.",
-"The Eternal Empires seeks security and control, they strike down anything in their path."
+"Enjoy the server",
+"Thanks for joining us!",
+"Did you know these backgrounds and songs are from Touhou?"
 ];
 
 /*Random message order?*/
